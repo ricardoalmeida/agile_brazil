@@ -37,7 +37,6 @@ TODO:
  * Reviewer can edit a review
  * Voting results
  * Search submissions
- * Cucumber features
  * Manage Roles (admin only)
  - Validate foreign_key references
  - send emails on background job (delayed_job?)
@@ -52,6 +51,7 @@ IN PROGRESS:
  
 DONE:
 
+ * Cucumber features -- Ricardo Almeida
  * Sorting proposals by recommendation and session id in the reviewer listing -- Hugo
  * Sorting proposals by any field in the organizer listing -- Hugo
  * Do not paginate reviewers on organizer's view -- Hugo
