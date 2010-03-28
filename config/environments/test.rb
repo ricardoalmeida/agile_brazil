@@ -34,3 +34,7 @@ config.gem "remarkable_rails", :lib => false
 config.gem "remarkable_activerecord", :lib => false
 config.gem "mocha", :lib => false
 config.gem "factory_girl"
+
+config.action_mailer.default_url_options = {
+  :host => "localhost:3000"
+}
